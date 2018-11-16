@@ -1,0 +1,9 @@
+Bundle-Name: csvImporter-api
+Bundle-SymbolicName: com.inexture.csvimporter.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.inexture.csvimporter.exception,\
+	com.inexture.csvimporter.model,\
+	com.inexture.csvimporter.service,\
+	com.inexture.csvimporter.service.persistence
+-includeresource: META-INF/service.xml=../csvImporter-service/service.xml
